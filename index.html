@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Arkanoid</title>
+	<meta name="description" content="Arkanoid">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+		@font-face {
+			font-family: 'Bottom';
+			src: url("fonts/games/Big_Bottom_Typeface_Normal.eot");
+			src: url("fonts/games/Big_Bottom_Typeface_Normal.svg");
+			src: url("fonts/games/Big_Bottom_Typeface_Normal.ttf");
+		}
+		.fontPreload {
+			font-family: 'Bottom';
+			position: absolute;
+			opacity: 0;
+			top: 0;
+			left: 0;
+			pointer-events: none;
+		}
+	</style>
+</head>
+
+<body>
+
+
+	<canvas id="mycanvas"></canvas>
+
+	<div class="fontPreload">.</div>
+	<script src="js/GAMES__SNAKE.js"></script>
+	<script src="js/board.js"></script>
+	<script src="js/snake.js"></script>
+
+</body>
+</html>
